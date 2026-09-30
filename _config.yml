@@ -1,0 +1,29 @@
+title: aiwatch stories
+description: Gemma가 매일 AI 뉴스 헤드라인을 읽고 쓴 유머 풍자 칼럼
+url: https://hoksi.github.io
+baseurl: /aiwatch-stories
+
+# Jekyll 기본 minima 테마 (GitHub Pages 지원)
+theme: minima
+lang: ko
+
+# Author
+author:
+  name: hoksi & Gemma3 4B
+  email: hoksi@forbiz.co.kr
+
+# Minima 설정
+minima:
+  skin: auto  # dark 모드 자동 대응
+  date_format: "%Y년 %m월 %d일"
+
+# 빌드 설정
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+timezone: Asia/Seoul
+
+# 파일 제외
+exclude:
+  - README.md
+  - .gitignore
+  - CNAME
